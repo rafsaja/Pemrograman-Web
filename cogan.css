@@ -1,0 +1,119 @@
+legend {
+    color: white;
+    padding: 6px;
+    background: #0817bb;
+    border-radius: 7px;
+}
+
+
+body {
+    background-color: rgb(27, 124, 50);
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(18, 11, 214);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(144, 77, 11);
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 14px 20px;
+    margin : 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(17, 23, 190);
+    border-radius: 4px;
+    box-sizing: content-box;
+    background-color: rgb(107, 84, 55);
+}
+input[type=password]:focus{
+    background-color: cadetblue;
+}
+input[type=date]{
+    width: 100%;
+    padding: 14px 20px;
+    margin : 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: hsl(229, 91%, 46%);
+}
+
+
+input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin : 10px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing:border-box;
+    background-color:rgb(64, 0, 255)
+}
+input[type=email]:focus{
+    background-color: royalblue;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+    background: color #f1f1f1;
+    resize: none;
+}
+.jarak{
+    margin: 2px;
+    padding: 3px;
+}
+input[type=radio]{
+    margin: 2px;
+    padding: 15px;
+}
+label {
+        color: rgb(35, 22, 96);
+    }
+
+.container { 
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: stretch;
+   justify-content: space-around;
+
+}
+
+button {
+    height: 40px;
+    font-style: italic;
+    background-color: rgb(7, 158, 158);
+    justify-content: space-around;
+    font-size: larger;
+   
+    color: rgba(255, 255, 255, 0.74);
+}
+
+button:hover {
+    background-color: rgb(234, 16, 23);
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color:cornsilk
+    
+   }
+
+
+
+

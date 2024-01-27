@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Belajar Form</title>
+    <link rel="stylesheet" href="cogan.css">
+
+</head>
+<body>
+    <h2>Isi Biodata berikut :</h2>
+    <form method="post" action="">
+        <fieldset>
+            <legend>Formulir Data diri</legend> <br>
+        <label for="Nama lengkap">Nama Lengkap :</label>
+        <input type="text" name="nama lengkap" id="nama lengkap " required placeholder="Nama Lengkap Anda" pattern="A-Z"> <br><br>
+        
+        <label for="Nama lengkap">Nama Panggilan :</label>
+        <input type="text" name="nama panggilan" placeholder="masukkan nama panggilan"> <br> <br>
+
+        <label for="Tempat Lahir">Tempat Lahir :</label>
+        <input type="text" name="tempat lahir" required placeholder="masukkan tempat lahir "> <br><br>
+
+        <label for="Tanggal Lahir">Tanggal Lahir :</label>
+        <input type="date" name="tanggal lahir" id="tanggal lahir"> <br>
+            <br>
+        <label for="JK">Jenis kelamin</label> <br>
+        <input type="radio" name="jk" id="jk">
+
+        <label for="lk"> Laki-laki</label> <br>
+        <input type="radio" name="jk" id="jk">
+
+        <label for="Tempat Lahir">perempuan</label> <br><br>
+
+        <label for="Agama"> Agama :</label>
+            <select name="Agama" id="Agama">
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen </option>
+                <option value="Budha">Budha</option>
+                <option value="Hindu">Hindu</option>
+                
+            </select>
+
+            <br><br>
+
+        <label for="Keahlian">Keahlian :</label><br>
+        
+        <label for="keahlian"> <input type="checkbox"name="keahlian" id="keahlian"> HTML </label>   <br>
+
+        <label for="keahlian"> <input type="checkbox"name="keahlian" id="keahlian"> CSS </label> <br>
+
+        <label for="keahlian"> <input type="checkbox" name="keahlian" id="keahlian">Javascript</label><br>
+
+        <label for="keahlian"> <input type="checkbox" name="keahlian" id="keahlian">Phyton</label><br>
+
+
+        <label for="keahlian"> <input type="checkbox" name="keahlian" id="keahlian">PHP</label> <br><br>
+
+        <label for="Moto hidup">
+
+            Moto Hidup : <br>
+            <textarea placeholder="masukkan kritik dan saran anda"id ="motto" cols="40" rows="10"></textarea>
+
+
+        </label> <br> <br>
+
+        <label for="email">Email :<input type="email" required placeholder="masukkan email" autocomplete="on"></label>  <br><br>
+
+        <label for="password">Password : <input type="password" placeholder="masukkan password"> </label> <br> <br>
+       
+        <label for="setuju"> <input type="checkbox">Saya setuju untuk mendaftar</label> <br><br>
+
+        <div class = "container">
+           <button>Reset</button>
+           <button>Kembali</button>
+           <button>register</button>
+           <button>clickme</button>
+        </div>
+
+    
+        </fieldset>
+
+    </form>
+</body>
+</html>

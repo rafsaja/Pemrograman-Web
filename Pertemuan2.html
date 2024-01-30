@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2</title>
+    <style>
+        .a{
+            color: aqua;
+        }
+
+        #a{
+            color: blue-;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Review -->
+
+    <!-- image internal & eksternal -->
+
+         <!-- internal  -->
+
+        <img src="../Materi/image/ikan.jpg" alt="ikan">  <!-- alt berkerja-->
+
+        <!-- eksternal -->
+
+        <img src="https://www.eurosci.net/sites/default/files/styles/sc_1536_384/public/campus-maastricht.jpg?itok=E5GiIG78" alt="maastricht">
+
+    <!-- Lining -->
+
+        <!-- hr -->
+
+            <p>Langit</p>
+            <hr>
+            <p>Bumi</p>
+
+        <!-- br -->
+
+            <p>Jaga</p>  
+            </br>
+            <p>Jarak</p>
+
+
+
+    <!-- Materi hari ini -->
+
+    <!-- List -->
+
+        <!-- Order List -->
+
+            <ol>
+                <li>Satu</li>
+                <li>Dua</li>
+                <li>Tiga</li>
+            </ol>
+
+        <!-- Unordered list -->
+
+            <ul>
+                <li>satu</li>
+                <li>Dua</li>
+                <li>Tiga</li>
+            </ul>
+
+    <!-- Kontainer / Grouping -->
+
+            
+        <!-- div -->
+
+            <div class="a"> Memanjang </div>
+            <div id="a"> Memanjang </div>
+
+            <br>
+        
+        <!-- Span -->
+
+            <span style="border: solid;">Ikut Element</span>
+
+            <hr>
+            
+
+    <!-- tabel -->
+
+        <!-- Tag :
+            -. tabel
+            -. thead
+            -. tbody
+            -. thead
+            -. td 
+
+            atribut :
+            -. style
+            -. rowspan
+            -. colspan
+
+         -->
+        
+         <table border="3">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                    <th>Kota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+       <hr>
+
+        <!-- colspan -->
+             <!-- menggabungkan sel-sel secara horizontal, yaitu sepanjang kolom. -->
+        
+        <table border="1">
+            <tr>
+              <td>Nama</td>
+              <td colspan="2">Informasi</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>25</td>
+              <td>New York</td>
+            </tr>
+            <tr>
+              <td>Jane</td>
+              <td>30</td>
+              <td>Los Angeles</td>
+            </tr>
+        </table>
+
+        <hr><br>
+
+        <!-- rowspan -->
+            <!-- menggabungkan sel-sel secara vertikal, yaitu sepanjang baris. -->
+
+            <table border="1">
+                <tr>
+                  <td rowspan="2">Nama</td>
+                  <td>John</td>
+                  <td>25</td>
+                  <td>New York</td>
+                </tr>
+                <tr>
+                  <td>Jane</td>
+                  <td>30</td>
+                  <td>Los Angeles</td>
+                </tr>
+              </table>
+                  
+
+        <br> <br>
+
+        <!-- coba menggunakan latihan -->
+
+        <table border="1">
+    
+            <tr>
+                <td>Nomor</td>
+                <td>Mata kuliah</td>
+                <td>Nilai Harian</td>
+                <td>Total Nilai</td>
+            </tr>
+                
+            <tr>
+                <td>1</td>
+                <td>AI</td>
+                <td>90</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>P web</td>
+                <td>80</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Stuktur Data</td>
+                <td>70</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Data Science</td>
+                <td>50</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Machine learning</td>
+                <td>40</td>
+                <td></td>
+            </tr>
+        </table>
+
+    <!-- Formulir -->
+        <!-- 
+            form
+            input  ->    text: Input teks biasa.
+    password: Input kata sandi.
+    checkbox: Checkbox untuk pilihan biner.
+    radio: Radio button untuk pilihan eksklusif.
+    submit: Tombol untuk mengirim formulir.
+            
+            dropdown
+            textarea
+            label
+            legend 
+            fieldset
+
+            atribut tambahan : placeholder, disabled, required
+            
+         -->
+
+    <!-- Input Teks -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Masukkan username" required />
+        <br />
+            
+        <!-- Input Kata Sandi -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan kata sandi" required />
+        <br />
+            
+        <!-- Checkbox -->
+        <input type="checkbox" id="remember" name="remember" disabled />
+        <label for="remember">Ingat saya</label>
+        <br />
+            
+        <!-- Radio Button -->
+        <input type="radio" id="male" name="gender" value="male" checked />
+        <label for="male">Pria</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Wanita</label>
+        <br />
+            
+        <!-- Tombol Submit -->
+        <input type="submit" value="Kirim" />
+        <br />
+            
+        <!-- Dropdown (Select) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="" disabled selected>Pilih Negara</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">UK</option>
+        </select>
+        <br />
+    
+        <!-- Textarea -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Tulis komentar..."></textarea>
+        <br />
+    
+        <!-- Label -->
+        <label for="labelExample">Label:</label>
+        <input type="text" id="labelExample" name="labelExample" />
+        <br />
+    
+        <!-- Legend dan Fieldset -->
+        <fieldset>
+          <legend>Data Personal</legend>
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email" required />
+          <br />
+        </fieldset>
+        
+        
+</body>
+</html>
